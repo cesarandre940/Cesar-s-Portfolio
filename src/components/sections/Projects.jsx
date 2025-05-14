@@ -54,7 +54,7 @@ export const Projects = () => {
                 track goals and progress for a more effective fitness journey
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "JavaScript", "TypScript"].map((tech, key) => (
+                {["Next.js", "JavaScript", "TypScript", "TailwindCSS"].map((tech, key) => (
                   <LinkButtons key={key}>{tech}</LinkButtons>
                 ))}
               </div>
@@ -62,7 +62,7 @@ export const Projects = () => {
                 <a
                   target="_blank"
                   role="link"
-                  href="#"
+                  href="https://github.com/cesarandre940/olympuz-next"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -85,19 +85,19 @@ export const Projects = () => {
                 responsive listening experience with a clean, modern interface.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Astro", "JavaScript", "TypeScript"].map((tech, key) => (
+                {["Astro", "JavaScript", "TypeScript", "TailwindCSS"].map((tech, key) => (
                   <LinkButtons key={key}>{tech}</LinkButtons>
                 ))}
               </div>
               <div className="flex justify-between items-center">
-                <a
+                {/* <a
                   target="_blank"
                   role="link"
                   href="#"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -109,25 +109,24 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">ChatBot</h3>
+              <h3 className="text-xl font-bold mb-2">🤖Support ChatBot</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                Smart Team Chatbot designed to help teams streamline task management, schedule meetings, automate daily stand-ups, and monitor project progress for a tech company.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["JavaScript", "React",].map((tech, key) => (
                   <LinkButtons key={key}>{tech}</LinkButtons>
                 ))}
               </div>
               <div className="flex justify-between items-center ">
-                <a
+                {/* <a
                   target="_blank"
                   role="link"
                   href="https://creator.voiceflow.com/dashboard?import=682398623e4da73e3a3f2f49"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
