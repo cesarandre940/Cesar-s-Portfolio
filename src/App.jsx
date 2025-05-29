@@ -8,6 +8,7 @@ import { Experience } from "./components/sections/Experience";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
+import { AboutMe } from "./components/sections/AboutMe";
 // Supports weights 100-900
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Home />
         <Experience />
         <Projects />
+        <AboutMe />
         <Contact />
       </div>
     </>
