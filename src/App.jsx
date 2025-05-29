@@ -8,7 +8,7 @@ import { Experience } from "./components/sections/Experience";
 import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
-
+// Supports weights 100-900
 
 function App() {
   // const [isLoaded, setIsLoaded] = useState(false);
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       {/* {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "} */}
-        
+
       <div
         className="min-h-screen transition-opacity duration-700 
          bg-black text-gray-100"
@@ -25,7 +25,7 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
-        <Experience/>
+        <Experience />
         <Projects />
         <Contact />
       </div>
@@ -34,4 +34,3 @@ function App() {
 }
 
 export default App;
-
