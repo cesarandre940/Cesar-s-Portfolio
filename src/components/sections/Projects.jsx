@@ -40,7 +40,7 @@ export const Projects = () => {
                 <a
                   target="_blank"
                   role="link"
-                  href="https://graceful-cheesecake-8c54e2.netlify.app/"
+                  href="https://github.com/cesarandre940/gym-timer"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
