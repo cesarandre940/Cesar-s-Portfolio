@@ -18,7 +18,7 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border   md:border-white/20 border-blue-500/30 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">⌛Gym Timer</h3>
               <img
                 className="rounded-xl mb-2"
@@ -49,13 +49,13 @@ export const Projects = () => {
             </div>
             <div
               className="
-              glass p-6 rounded-xl border border-white/10 
+              glass p-6 rounded-xl border   md:border-white/20 border-blue-500/30 
               hover:-translate-y-1 hover:border-blue-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">🔱Olympuz</h3>
+              <h3 className="text-xl font-bold mb-2">🔱 Olympuz</h3>
               <img
                 className="rounded-xl mb-2"
                 src={mockupImg}
@@ -88,13 +88,13 @@ export const Projects = () => {
 
             <div
               className="
-              glass p-6 rounded-xl border border-white/10 
+              glass p-6 rounded-xl  border  md:border-white/20 border-blue-500/30 
               hover:-translate-y-1 hover:border-blue-500/30
               hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">🤖Support ChatBot</h3>
+              <h3 className="text-xl font-bold mb-2">🤖 Support ChatBot</h3>
               <img
                 className="rounded-xl mb-2"
                 src={ChatBotImg}

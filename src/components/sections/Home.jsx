@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import  Badge  from "../sections/Badge";
+import GithubIcon from "../icons/GithubIcon";
+import LinkedinIcon from "../icons/LinkedinIcon";
 
 export const Home = () => {
   return (
@@ -9,30 +10,54 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-blue-200 bg-clip-text text-transparent leading-normal">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Hi, I'm Cesar Aguilar
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto [&>strong]:text-blue-200 [&>strong]:font-semibold">
-          3+ years of experience. <strong> Software Engineer specialized in crafting unique and high-quality Software.</strong> 
+          <p className="text-blue-400 font-bold text-xl mb-8 max-w-lg mx-auto">
+            3+ years of experience.
+            <strong className="text-white font-light">
+              {" "}
+              Software Engineer specialized in crafting unique and high-quality
+              Software.
+            </strong>
           </p>
 
-          <div className="flex justify-center space-x-4">
+          {/* Responsive button layout */}
+          <div className="grid grid-cols-2 gap-3 md:flex md:flex-row md:justify-center md:space-x-4 md:space-y-0">
             <a
               href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+              className="flex items-center justify-center gap-x-1 border md:border-white/20 border-blue-500/30  rounded px-6 py-4 text-white shadow-md hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all duration-300"
             >
               View Projects
             </a>
-            <Badge>
             <a
               href="#contact"
-              className="text-blue-500  duration-200 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] "
+              className="flex items-center justify-center gap-x-1 border md:border-white/20 border-blue-500/30 rounded px-6 py-4 text-white  shadow-md hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all duration-300"
             >
-              
               Contact Me
-              
             </a>
-            </Badge>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/andre-aguilar-ca/"
+              className="flex items-center justify-center gap-x-1 border md:border-white/20 border-blue-500/30 rounded px-6 py-4 text-white shadow-md hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all duration-300"
+            >
+              Linkedin
+              <LinkedinIcon />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/cesarandre940"
+              className="flex items-center justify-center gap-x-1 border md:border-white/20 border-blue-500/30 rounded px-6 py-4 text-white shadow-md hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all duration-300"
+            >
+              Github
+              <GithubIcon />
+            </a>
           </div>
         </div>
       </RevealOnScroll>

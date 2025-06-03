@@ -1,6 +1,3 @@
-
-
-
 export default function ExperienceItem({ title, company, description, date }) {
   return (
     <div className="relative md:mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
@@ -19,7 +16,7 @@ export default function ExperienceItem({ title, company, description, date }) {
           </time>
         </div>
       </div>
-      <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
+      <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-200 md:col-span-3">
         {description}
       </div>
     </div>
