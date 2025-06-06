@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import GithubIcon from "../icons/GithubIcon";
 import LinkedinIcon from "../icons/LinkedinIcon";
+import DownloadIcon from "../icons/DownloadIcon";
 
 export const Home = () => {
   return (
@@ -58,6 +59,18 @@ export const Home = () => {
               Github
               <GithubIcon />
             </a>
+            <div className="col-span-2 flex justify-center md:col-span-1 md:block">
+              <a
+                rel="noopener noreferrer"
+                href={`${import.meta.env.BASE_URL}/CesarAguilar-Resume.pdf`}
+                download
+                className="flex items-center justify-center gap-x-1 border md:border-white/20 border-blue-500/30 rounded px-6 py-4 text-white shadow-md hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+                transition-all duration-300"
+              >
+                Resume
+                <DownloadIcon />
+              </a>
+            </div>
           </div>
         </div>
       </RevealOnScroll>
